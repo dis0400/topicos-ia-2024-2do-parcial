@@ -30,5 +30,29 @@
         "destination": "Dallas",
         "cost": 401,
         "reservation_type": "TripReservation"
+    },
+    {
+        "reservation_time": "2024-12-12T10:10:00",
+        "restaurant": "Suisse",
+        "city": "La Paz",
+        "dish": "Llama",
+        "cost": 16,
+        "reservation_type": "RestaurantReservation"
+    },
+    {
+        "checkin_date": "2024-12-10",
+        "checkout_date": "2024-12-20",
+        "hotel_name": "Gloria",
+        "city": "La Paz",
+        "cost": 819,
+        "reservation_type": "HotelReservation"
+    },
+    {
+        "checkin_date": "2024-12-09",
+        "checkout_date": "2024-12-12",
+        "hotel_name": "Met",
+        "city": "La Paz",
+        "cost": 884,
+        "reservation_type": "HotelReservation"
     }
 ]

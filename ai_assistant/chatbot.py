@@ -1,4 +1,7 @@
+import sys
+import os
 import gradio as gr
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from ai_assistant.agent import TravelAgent
 
 agent = TravelAgent().get_agent()
